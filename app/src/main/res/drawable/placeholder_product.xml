@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Product bag / tag icon -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M65,30 h-10 c0,-8.28 -6.72,-15 -15,-15 s-15,6.72 -15,15 h-10 c-2.76,0 -5,2.24 -5,5 v35 c0,5.52 4.48,10 10,10 h45 c5.52,0 10,-4.48 10,-10 v-35 c0,-2.76 -2.24,-5 -5,-5 z M40,23 c3.87,0 7,3.13 7,7 h-14 c0,-3.87 3.13,-7 7,-7 z"/>
+    <!-- Star badge -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M50,48 l2.5,5 5.5,0.8 -4,3.9 0.9,5.5 -4.9,-2.6 -4.9,2.6 0.9,-5.5 -4,-3.9 5.5,-0.8 z"/>
+</vector>

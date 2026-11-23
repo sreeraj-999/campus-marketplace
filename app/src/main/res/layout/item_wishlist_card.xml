@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardWishlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginBottom="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/white_cards"
+    app:strokeColor="@color/card_stroke"
+    app:strokeWidth="1dp"
+    app:rippleColor="#221565C0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_vertical">
+
+        <!-- Thumbnail Image -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivWishlistImage"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.CampusMarketplace.Medium"
+            tools:srcCompat="@drawable/placeholder_electronics" />
+
+        <!-- Info container -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvWishlistTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/text_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="Scientific Calculator FX-991" />
+
+            <TextView
+                android:id="@+id/tvWishlistPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/primary_blue"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="₹ 600" />
+
+            <TextView
+                android:id="@+id/tvWishlistCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/secondary_text"
+                android:textSize="12sp"
+                tools:text="Electronics • Good" />
+
+            <TextView
+                android:id="@+id/tvWishlistSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/hint_text"
+                android:textSize="11sp"
+                tools:text="Seller: Rahul Verma" />
+
+        </LinearLayout>
+
+        <!-- Remove Wishlist Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRemoveWishlist"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:contentDescription="@string/btn_remove_from_wishlist"
+            app:icon="@drawable/ic_delete"
+            app:iconTint="@color/error_red" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

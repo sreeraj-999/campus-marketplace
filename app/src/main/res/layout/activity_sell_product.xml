@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical">
+
+    <!-- Top App Bar with Back Button -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarSell"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary_blue"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="@string/sell_title"
+        app:titleTextColor="@color/white" />
+
+    <!-- Fragment container hosting SellFragment -->
+    <FrameLayout
+        android:id="@+id/containerSell"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

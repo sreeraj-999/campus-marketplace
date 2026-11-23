@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Circle background soft -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M60,10 A50,50 0 1 1 59.9,10 Z"/>
+    <!-- Open empty box -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M35,50 L60,35 L85,50 L60,65 Z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M35,50 L60,65 L60,95 L35,80 Z"/>
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M85,50 L60,65 L60,95 L85,80 Z"/>
+    <!-- Box Flaps -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M35,50 L20,40 L45,30 L60,35 Z"/>
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M85,50 L100,40 L75,30 L60,35 Z"/>
+</vector>

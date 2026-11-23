@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Basketball / Sports ball -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M50,50m-24,0a24,24 0 1,1 48,0a24,24 0 1,1 -48,0"/>
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M50,50m-20,0a20,20 0 1,1 40,0a20,20 0 1,1 -40,0"/>
+    <!-- Seams -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M26,50 h48 M50,26 v48 M34,34 Q50,50 34,66 M66,34 Q50,50 66,66"/>
+</vector>

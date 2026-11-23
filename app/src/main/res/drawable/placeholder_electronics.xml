@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Laptop screen -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M24,28 h52 a4,4 0 0 1 4,4 v30 h-60 v-30 a4,4 0 0 1 4,-4 z"/>
+    <!-- Screen inside display -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M28,32 h44 v22 h-44 z"/>
+    <!-- Laptop base -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M18,62 h64 a3,3 0 0 1 3,3 v3 h-70 v-3 a3,3 0 0 1 3,-3 z"/>
+    <!-- Trackpad -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M44,63 h12 v3 h-12 z"/>
+</vector>

@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Study Desk -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M24,46 h52 v6 h-52 z"/>
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M26,52 h4 v22 h-4 z"/>
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M70,52 h4 v22 h-4 z"/>
+    <!-- Desk Chair -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M44,32 h12 v16 h-12 z"/>
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M42,48 h16 v4 h-16 z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M48,52 h4 v22 h-4 z"/>
+</vector>

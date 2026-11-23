@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Stack of Books -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M25,65 h50 v8 h-50 z"/>
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M28,52 h44 v8 h-44 z"/>
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M32,40 h36 v7 h-36 z"/>
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M36,28 h28 v7 h-28 z"/>
+    <!-- Book bookmark ribbon -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M48,28 v16 l4,-4 l4,4 v-16 z"/>
+</vector>

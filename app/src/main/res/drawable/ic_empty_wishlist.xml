@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Circle background soft -->
+    <path
+        android:fillColor="#FFEBEE"
+        android:pathData="M60,10 A50,50 0 1 1 59.9,10 Z"/>
+    <!-- Broken/empty Heart -->
+    <path
+        android:fillColor="#EF5350"
+        android:pathData="M60,95 L52.75,88.4 C27,65.08 10,49.68 10,30.5 C10,14.92 22.1,2.75 37.5,2.75 C46.2,2.75 54.55,6.8 60,13.18 C65.45,6.8 73.8,2.75 82.5,2.75 C97.9,2.75 110,14.92 110,30.5 C110,49.68 93,65.08 67.25,88.4 Z"/>
+    <!-- Heart outline inside white -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,82 L55,77 C35,58.8 22,46.5 22,31.2 C22,18.7 31.7,9 44,9 C51,9 57.6,12.2 60,17.3 C62.4,12.2 69,9 76,9 C88.3,9 98,18.7 98,31.2 C98,46.5 85,58.8 65,77 Z"/>
+</vector>

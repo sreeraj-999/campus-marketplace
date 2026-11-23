@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#EDE7F6"
+        android:pathData="M10,10 h80 a10,10 0 0 1 10,10 v60 a10,10 0 0 1 -10,10 h-80 a10,10 0 0 1 -10,-10 v-60 a10,10 0 0 1 10,-10 z"/>
+    <!-- Hostel Bed -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M22,38 h6 v36 h-6 z"/>
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M72,46 h6 v28 h-6 z"/>
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M22,54 h56 v10 h-56 z"/>
+    <!-- Pillow -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,46 h14 a4,4 0 0 1 4,4 v4 h-18 v-4 a4,4 0 0 1 0,-4 z"/>
+    <!-- Blanket -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M42,54 h36 v10 h-36 z"/>
+</vector>
