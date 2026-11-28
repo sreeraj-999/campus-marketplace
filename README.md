@@ -1,0 +1,1 @@
+Campus Marketplace is an Android app that enables college students to buy, sell, exchange, or donate campus essentials. It features product listings, category-based search, account creation, login, and a wishlist for easy item discovery within the campus community.
